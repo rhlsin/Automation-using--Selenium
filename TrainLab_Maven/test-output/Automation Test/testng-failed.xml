@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Automation Test]">
+  <test thread-count="5" name="Testcases(failed)">
+    <classes>
+      <class name="Global.Dependency">
+        <methods>
+          <include name="OpeningBrowser"/>
+          <include name="FlightBooking"/>
+          <include name="Login1"/>
+        </methods>
+      </class> <!-- Global.Dependency -->
+      <class name="Global.TestBase">
+        <methods>
+          <include name="Login1"/>
+        </methods>
+      </class> <!-- Global.TestBase -->
+    </classes>
+  </test> <!-- Testcases(failed) -->
+</suite> <!-- Failed suite [Automation Test] -->
