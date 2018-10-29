@@ -1,0 +1,9 @@
+16:35:33.454 [main] FATAL alpha.First - this is fatel
+16:36:16.721 [main] DEBUG alpha.First - I am Debugging
+16:36:16.731 [main] INFO  alpha.First - object is present
+16:36:16.731 [main] ERROR alpha.First - object is not present
+16:36:16.731 [main] FATAL alpha.First - this is fatel
+16:36:40.851 [main] DEBUG alpha.First - I am Debugging
+16:36:40.860 [main] INFO  alpha.First - object is present
+16:36:40.860 [main] ERROR alpha.First - object is not present
+16:36:40.860 [main] FATAL alpha.First - this is fatel
