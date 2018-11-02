@@ -18,8 +18,8 @@ public class loginApp
 		driver.get("https://mail.rediff.com/cgi-bin/login.cgi");
 		
 		rediff_home_objectFactory rd =new rediff_home_objectFactory(driver);
-		rd.Email().sendKeys("hello");
-		rd.Password().sendKeys("hello");
+		rd.Email().sendKeys("hello");    // email text hello
+		rd.Password().sendKeys("hello"); // password column will be written hello. 
 		rd.Go().click();
 		rd.Home().click();
 		
@@ -30,4 +30,8 @@ public class loginApp
 		
 	}
 }
+
+//rediff_home rh =new rediff_home(driver);
+//rh.Search().sendKeys("refiff");
+//rh.Submit().click();
   
